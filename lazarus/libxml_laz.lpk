@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="libxml_laz"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="..\src"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="..\src\exslt.pas"/>
+        <UnitName Value="exslt"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\exsltdyn.pas"/>
+        <UnitName Value="exsltdyn"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\xml2.pas"/>
+        <UnitName Value="xml2"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\xml2dyn.pas"/>
+        <UnitName Value="xml2dyn"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\xslt.pas"/>
+        <UnitName Value="xslt"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\xsltdyn.pas"/>
+        <UnitName Value="xsltdyn"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
