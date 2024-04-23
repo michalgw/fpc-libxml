@@ -12,36 +12,37 @@
         <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
       </SearchPaths>
     </CompilerOptions>
-    <Files>
-      <Item>
+    <Files Count="6">
+      <Item1>
         <Filename Value="..\src\exslt.pas"/>
         <UnitName Value="exslt"/>
-      </Item>
-      <Item>
+      </Item1>
+      <Item2>
         <Filename Value="..\src\exsltdyn.pas"/>
         <UnitName Value="exsltdyn"/>
-      </Item>
-      <Item>
+      </Item2>
+      <Item3>
         <Filename Value="..\src\xml2.pas"/>
         <UnitName Value="xml2"/>
-      </Item>
-      <Item>
+      </Item3>
+      <Item4>
         <Filename Value="..\src\xml2dyn.pas"/>
         <UnitName Value="xml2dyn"/>
-      </Item>
-      <Item>
+      </Item4>
+      <Item5>
         <Filename Value="..\src\xslt.pas"/>
         <UnitName Value="xslt"/>
-      </Item>
-      <Item>
+      </Item5>
+      <Item6>
         <Filename Value="..\src\xsltdyn.pas"/>
         <UnitName Value="xsltdyn"/>
-      </Item>
+      </Item6>
     </Files>
-    <RequiredPkgs>
-      <Item>
+    <CompatibilityMode Value="True"/>
+    <RequiredPkgs Count="1">
+      <Item1>
         <PackageName Value="FCL"/>
-      </Item>
+      </Item1>
     </RequiredPkgs>
     <UsageOptions>
       <UnitPath Value="$(PkgOutDir)"/>
